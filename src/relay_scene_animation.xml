@@ -1,0 +1,759 @@
+<scene>
+	<scope>0</scope>
+	<light>
+		<name>Light1</name>
+		<type>point</type>
+		<position>0,0,5</position>
+		<color>1,1,1</color>
+	</light>
+	
+	<scene_graph>
+		<root>
+			<children>
+				<child>
+					<name>Space Trans Node</name>
+					<translation>0,0,-30</translation>
+					<rotation>90,1,0,0</rotation>
+					<scale>1,1,1</scale>
+					
+					<children>
+						<child>
+							<name>SpaceLeft Node</name>
+							<entity>
+								<name>Space1 Entity</name>
+								<mesh>Space.mesh</mesh>
+								<material>Space</material>
+							</entity>
+							<translation>0,0,0</translation>
+							<rotation>0,1,0,0</rotation>
+							<scale>50,50,50</scale>
+							<children>
+							</children>
+						</child>
+						<child>
+							<name>SpaceTop Node</name>
+							<entity>
+								<name>Space2 Entity</name>
+								<mesh>Space.mesh</mesh>
+								<material>Space</material>
+							</entity>
+							<translation>0,20,-30</translation>
+							<rotation>90,1,0,0</rotation>
+							<scale>50,50,50</scale>
+							<children>
+							</children>
+						</child>
+						<child>
+							<name>Space3 Node</name>
+							<entity>
+								<name>Space3 Entity</name>
+								<mesh>Space.mesh</mesh>
+								<material>Space</material>
+							</entity>
+							<translation>50,50,0</translation>
+							<rotation>90,0,0,1</rotation>
+							<scale>50,50,50</scale>
+							<children>
+							</children>
+						</child>
+						<child>
+							<name>Space4 Node</name>
+							<entity>
+								<name>Space4 Entity</name>
+								<mesh>Space.mesh</mesh>
+								<material>Space</material>
+							</entity>
+							<translation>-50,50,0</translation>
+							<rotation>270,0,0,1</rotation>
+							<scale>50,50,50</scale>
+							<children>
+							</children>
+						</child>
+						<child>
+							<name>Space5 Node</name>
+							<entity>
+								<name>Space5 Entity</name>
+								<mesh>Space.mesh</mesh>
+								<material>Space</material>
+							</entity>
+							<translation>0,75,0</translation>
+							<rotation>180,0,0,1</rotation>
+							<scale>50,50,50</scale>
+							<children>
+							</children>
+						</child>
+						<child>
+							<name>SpaceBot Node</name>
+							<entity>
+								<name>SpaceBot Entity</name>
+								<mesh>Space.mesh</mesh>
+								<material>Space</material>
+							</entity>
+							<translation>0,30,50</translation>
+							<rotation>-90,1,0,0</rotation>
+							<scale>50,50,50</scale>
+							<children>
+							</children>
+						</child>
+					</children>
+				</child>
+				<child>
+					<name>Relay Transform Node</name>
+					<translation>-3,0,0</translation>
+					<rotation>0,0,1,0</rotation>
+					<scale>1,1,1</scale>
+					
+					<children>
+						<child>
+							<name>Relay Node</name>
+							<entity>
+								<name>Relay Entity</name>
+								<mesh>Relay.mesh</mesh>
+								<material>Relay</material>
+							</entity>
+							<translation>0,0,0</translation>
+							<rotation>0,0,1,0</rotation>
+							<scale>.25,1.25,.4</scale>
+							<children>
+							</children>
+						</child>
+						
+						<child>
+							<name>Outer Ring Transform Node</name>
+							<translation>1.1,-.25,0</translation>
+							<rotation>0,1,0,0</rotation>
+							<scale>1,1,1</scale>
+							
+							<children>
+								<animation>
+									<name>Outer Ring Spin Animation</name>
+									<seconds>3</seconds>
+									<keyframes>
+										<keyframe>
+											<time>0.00</time>
+											<translation>0,0,0</translation>
+											<rotation>0,0,1,0</rotation>
+										</keyframe>
+										<keyframe>
+											<time>0.75</time>
+											<translation>0,0,0</translation>
+											<rotation>90,0,1,0</rotation>
+										</keyframe>
+										<keyframe>
+											<time>1.5</time>
+											<translation>0,0,0</translation>
+											<rotation>180,0,1,0</rotation>
+										</keyframe>
+										<keyframe>
+											<time>2.25</time>
+											<translation>0,0,0</translation>
+											<rotation>270,0,1,0</rotation>
+										</keyframe>
+										<keyframe>
+											<time>3.00</time>
+											<translation>0,0,0</translation>
+											<rotation>360,0,1,0</rotation>
+										</keyframe>
+									</keyframes>
+								</animation>
+								
+								
+								
+								<child>
+									<name>Outer Ring Node</name>
+									<entity>
+										<name>Outer Ring Entity</name>
+										<mesh>Ring.mesh</mesh>
+										<material>Ring</material>
+									</entity>
+									<translation>0,0,0</translation>
+									<rotation>90,1,0,0</rotation>
+									<scale>.55,.55,.55</scale>
+									<children>
+									</children>
+								</child>
+							</children>
+						</child>
+						
+						<child>
+							<name>Inner Ring Transform Node</name>
+							<translation>1.1,-.25,0</translation>
+							<rotation>0,0,1,0</rotation>
+							<scale>1,1,1</scale>
+							
+							<children>
+								<animation>
+									<name>Inner Ring Spin Animation</name>
+									<seconds>3</seconds>
+									<keyframes>
+										<keyframe>
+											<time>0.00</time>
+											<translation>0,0,0</translation>
+											<rotation>0,0,1,0</rotation>
+										</keyframe>
+										<keyframe>
+											<time>0.75</time>
+											<translation>0,0,0</translation>
+											<rotation>90,1,0,0</rotation>
+										</keyframe>
+										<keyframe>
+											<time>1.5</time>
+											<translation>0,0,0</translation>
+											<rotation>180,1,0,0</rotation>
+										</keyframe>
+										<keyframe>
+											<time>2.25</time>
+											<translation>0,0,0</translation>
+											<rotation>270,1,0,0</rotation>
+										</keyframe>
+										<keyframe>
+											<time>3.00</time>
+											<translation>0,0,0</translation>
+											<rotation>360,1,0,0</rotation>
+										</keyframe>
+									</keyframes>
+								</animation>
+								<child>
+									<name>Inner Ring Node</name>
+									<entity>
+										<name>Inner Ring Entity</name>
+										<mesh>Ring.mesh</mesh>
+										<material>Ring</material>
+									</entity>
+									<translation>0,0,0</translation>
+									<rotation>90,1,0,0</rotation>
+									<scale>.5,.5,.5</scale>
+									<children>
+									</children>
+								</child>
+							</children>
+						</child>
+						
+						<child>
+							<name>Element Zero Transform Node</name>
+							<translation>1.1,-.25,0</translation>
+							<rotation>0,0,0,1</rotation>
+							<scale>.4,.4,.4</scale>
+							
+							<children>
+								<child>
+									<name>Element Zero Node</name>
+									<entity>
+										<name>Element Zero Entity</name>
+										<mesh>Element_Zero.mesh</mesh>
+										<material>Element_Zero</material>
+									</entity>
+									<translation>0,0,0</translation>
+									<rotation>0,0,0,1</rotation>
+									<scale>1,1,1</scale>
+									<children>
+									</children>
+								</child>
+							</children>
+						</child>
+						
+					</children>
+				</child>
+				<child>
+					<name>Spaceship Transform Node</name>
+					<translation>-20,-5,20</translation>
+					<rotation>0,0,1,0</rotation>
+					<scale>1,1,1</scale>
+					
+					<children>
+						<animation>
+							<name>Spaceship Animation</name>
+							<seconds>12</seconds>
+							<keyframes>
+								<keyframe>
+									<time>0.00</time>
+									<translation>0,0,0</translation>
+									<rotation>0,0,1,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>2</time>
+									<translation>3,1,-4</translation>
+									<rotation>-18,0,1,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>4</time>
+									<translation>6,2,-8</translation>
+									<rotation>-36,0,1,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>6</time>
+									<translation>9,3,-12</translation>
+									<rotation>-40,0,1,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>8</time>
+									<translation>12,4,-16</translation>
+									<rotation>-55,0,1,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>10</time>
+									<translation>16,5,-17</translation>
+									<rotation>-90,0,1,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>10.5</time>
+									<translation>40,5,-17</translation>
+									<rotation>-100,0,1,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>11</time>
+									<translation>20,3,0</translation>
+									<rotation>-200,0,1,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>11.5</time>
+									<translation>-5,1,20</translation>
+									<rotation>-300,0,1,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>12</time>
+									<translation>0,0,0</translation>
+									<rotation>-360,0,1,0</rotation>
+								</keyframe>
+								
+							</keyframes>
+						</animation>
+						<child>
+							<name>Rotate Transform</name>
+							<translation>0,0,0</translation>
+							<rotation>90,0,1,0</rotation>
+							<scale>1,1,1</scale>
+							<children>
+								<child>
+									<name>Head Transform Node</name>
+									<translation>2.15,.1,-.6</translation>
+									<rotation>0,0,1,0</rotation>
+									<scale>1,1,1</scale>
+									<children>
+										<child>
+											<name>Head Node</name>
+											<entity>
+												<name>Head Entity</name>
+												<mesh>Ring.mesh</mesh>
+												<material>NavigationScreen</material>
+											</entity>
+											<translation>0,0,0</translation>
+											<rotation>0,0,0,1</rotation>
+											<scale>.01,.1,.15</scale>
+											<children>
+												<camera>
+													<name>Head Camera</name>
+													<position>0,0.01,0.01</position>
+													<look_at>10,0,0</look_at>
+													<clip_distance>0.001,100</clip_distance>
+												</camera>
+											</children>
+										</child>
+									</children>
+								</child>
+								<child>
+									<name>Ship</name>
+									<translation>2,0,0</translation>
+									<rotation>-90,0,1,0</rotation>
+									<scale>.075,.075,.075</scale>
+									<children>
+									
+										
+
+										<child>
+											<name>ShipAndWings</name>
+											<translation>0,0,0</translation>
+											<rotation>0,0,1,0</rotation>
+											<scale>1,1,1</scale>
+											<children>
+
+												<child>
+													<name>ShipHullNode</name>
+													<entity>
+														<name>ShipHull</name>
+														<mesh>ShipHull.mesh</mesh>
+														<material>Ship</material>
+													</entity>
+													<translation>0,0,0</translation>
+													<rotation>0,0,1,0</rotation>
+													<scale>2,1,7</scale>
+													<children>
+													</children>
+												</child>
+
+												<child>
+													<name>RightWingTransNode</name>
+													<translation>1,0,0</translation>
+													<rotation>0,0,0,1</rotation>
+													<scale>1,1,1</scale>
+													<children>
+											
+														<child>
+															<name>RightArmNode</name>
+															<entity>
+																<name>RightArm</name>
+																<mesh>ShipArm.mesh</mesh>
+																<material>Ship</material>
+															</entity>
+															<translation>0,0,-4</translation>
+															<rotation>0,0,0,0</rotation>
+															<scale>3,1,10</scale>
+															<children>
+															</children>
+														</child>
+														
+														<child>
+															<name>RightEngineNode</name>
+															<entity>
+																<name>RightEngine</name>
+																<mesh>ShipEngine.mesh</mesh>
+																<material>Ship</material>
+															</entity>
+															<translation>0,0,0</translation>
+															<rotation>0,0,0,0</rotation>
+															<scale>2,1,7</scale>
+															<children>
+															</children>
+														</child>
+														
+														<child>
+															<name>RightWingNode</name>
+															<entity>
+																<name>RightWing</name>
+																<mesh>ShipWing.mesh</mesh>
+																<material>Ship</material>
+															</entity>
+															<translation>0,0,0</translation>
+															<rotation>0,0,0,0</rotation>
+															<scale>1,1,10</scale>
+															<children>
+															</children>
+														</child>
+													</children>
+												</child>
+												
+												<child>
+													<name>LeftWingTransNode</name>
+													<translation>-17.5,0,0</translation>
+													<rotation>180,0,0,1</rotation>
+													<scale>1,1,1</scale>
+													<children>
+											
+														<child>
+															<name>LeftArmNode</name>
+															<entity>
+																<name>LeftArm</name>
+																<mesh>ShipArm.mesh</mesh>
+																<material>Ship</material>
+															</entity>
+															<translation>0,0,-4</translation>
+															<rotation>0,0,0,0</rotation>
+															<scale>3,1,10</scale>
+															<children>
+															</children>
+														</child>
+														
+														<child>
+															<name>LeftEngineNode</name>
+															<entity>
+																<name>LeftEngine</name>
+																<mesh>ShipEngine.mesh</mesh>
+																<material>Ship</material>
+															</entity>
+															<translation>0,0,0</translation>
+															<rotation>0,0,0,0</rotation>
+															<scale>2,1,7</scale>
+															<children>
+															</children>
+														</child>
+														
+														<child>
+															<name>LeftWingNode</name>
+															<entity>
+																<name>LeftWing</name>
+																<mesh>ShipWing.mesh</mesh>
+																<material>Ship</material>
+															</entity>
+															<translation>0,0,0</translation>
+															<rotation>0,0,0,0</rotation>
+															<scale>1,1,10</scale>
+															<children>
+															</children>
+														</child>
+													</children>
+												</child>
+												
+											</children>
+										</child>
+										
+										<child>
+											<name>WindowGuards</name>
+											<translation>-4.5,2.75,0</translation>
+											<rotation>0,0,0,0</rotation>
+											<scale>1,1,1</scale>
+											<children>
+											
+												<child>
+													<name>MiddleGuardNode</name>
+													<entity>
+														<name>MiddleGuard</name>
+														<mesh>WindowGuardMiddle.mesh</mesh>
+														<material>Ship</material>
+													</entity>
+													<translation>0,0,0</translation>
+													<rotation>0,0,0,0</rotation>
+													<scale>.15,.2,1.75</scale>
+													<children>
+													</children>
+												</child>
+												
+												<child>
+													<name>RightGuardTransNode</name>
+													<translation>-.75,0,0</translation>
+													<rotation>0,0,0,0</rotation>
+													<scale>1,1,1</scale>
+													<children>
+													
+														<child>
+															<name>RightGuardNode</name>
+															<entity>
+																<name>RightGuard</name>
+																<mesh>WindowGuardSide.mesh</mesh>
+																<material>Ship</material>
+															</entity>
+															<translation>0,0,0</translation>
+															<rotation>0,0,0,0</rotation>
+															<scale>.15,.2,1.75</scale>
+															<children>
+															</children>
+														</child>
+													</children>
+												</child>
+												
+												<child>
+													<name>LeftGuardTransNode</name>
+													<translation>-6.25,0,0</translation>
+													<rotation>0,0,0,0</rotation>
+													<scale>1,1,1</scale>
+													<children>
+													
+														<child>
+															<name>LeftGuardNode</name>
+															<entity>
+																<name>LeftGuard</name>
+																<mesh>WindowGuardSide.mesh</mesh>
+																<material>Ship</material>
+															</entity>
+															<translation>0,0,0</translation>
+															<rotation>0,0,0,0</rotation>
+															<scale>.15,.2,1.75</scale>
+															<children>
+															</children>
+														</child>
+													</children>
+												</child>
+												
+												<child>
+													<name>RightCrossTransNode</name>
+													<translation>-.7,0,0</translation>
+													<rotation>0,0,0,0</rotation>
+													<scale>1,1,1</scale>
+													<children>
+													
+														<child>
+															<name>RightCrossNode</name>
+															<entity>
+																<name>RightCross</name>
+																<mesh>WindowCross.mesh</mesh>
+																<material>Ship</material>
+															</entity>
+															<translation>0,0,0</translation>
+															<rotation>0,0,0,0</rotation>
+															<scale>.12,.2,1.75</scale>
+															<children>
+															</children>
+														</child>
+													</children>
+												</child>
+												
+												<child>
+													<name>LeftCrossTransNode</name>
+													<translation>-6.35,0,-7</translation>
+													<rotation>180,0,1,0</rotation>
+													<scale>1,1,1</scale>
+													<children>
+													
+														<child>
+															<name>LeftCrossNode</name>
+															<entity>
+																<name>LeftCross</name>
+																<mesh>WindowCross.mesh</mesh>
+																<material>Ship</material>
+															</entity>
+															<translation>0,0,0</translation>
+															<rotation>0,0,0,0</rotation>
+															<scale>.12,.2,1.75</scale>
+															<children>
+															</children>
+														</child>
+													</children>
+												</child>
+											</children>
+										</child>
+										
+										<child>
+											<name>Chair</name>
+											<translation>-8,1,-2</translation>
+											<rotation>0,0,0,0</rotation>
+											<scale>1,1,1</scale>
+											<children>
+											
+												<child>
+													<name>ChairCushionTransNode</name>
+													<translation>0,0,0</translation>
+													<rotation>0,0,0,0</rotation>
+													<scale>1,1,1</scale>
+													<children>
+													
+														<child>
+															<name>ChairCushionNode</name>
+															<entity>
+																<name>ChairCushion</name>
+																<mesh>ChairCushion.mesh</mesh>
+																<material>Chair</material>
+															</entity>
+															<translation>0,0,1</translation>
+															<rotation>0,0,0,0</rotation>
+															<scale>.75,1,.15</scale>
+															<children>
+															</children>
+														</child>
+													</children>
+												</child>
+												
+												<child>
+													<name>ChairBackTransNode</name>
+													<translation>0,0,1</translation>
+													<rotation>0,0,0,0</rotation>
+													<scale>1,1,1</scale>
+													<children>
+													
+														<child>
+															<name>ChairBackNode</name>
+															<entity>
+																<name>ChairBack</name>
+																<mesh>ChairBack.mesh</mesh>
+																<material>Chair</material>
+															</entity>
+															<translation>0,0,0</translation>
+															<rotation>0,0,0,0</rotation>
+															<scale>.75,1,.1</scale>
+															<children>
+															</children>
+														</child>
+													</children>
+												</child>
+												
+												<child>
+													<name>ChairRightArmTransNode</name>
+													<translation>0,0,1</translation>
+													<rotation>0,0,0,0</rotation>
+													<scale>1,1,1</scale>
+													<children>
+													
+														<child>
+															<name>ChairRightArmNode</name>
+															<entity>
+																<name>ChairRightArm</name>
+																<mesh>ChairArm.mesh</mesh>
+																<material>Chair</material>
+															</entity>
+															<translation>0,0,0</translation>
+															<rotation>0,0,0,0</rotation>
+															<scale>.75,1,.15</scale>
+															<children>
+															</children>
+														</child>
+													</children>
+												</child>
+												
+												<child>
+													<name>ChairLeftArmTransNode</name>
+													<translation>-1.5,0,1</translation>
+													<rotation>0,0,0,0</rotation>
+													<scale>1,1,1</scale>
+													<children>
+													
+														<child>
+															<name>ChairLeftArmNode</name>
+															<entity>
+																<name>ChairLeftArm</name>
+																<mesh>ChairArm.mesh</mesh>
+																<material>Chair</material>
+															</entity>
+															<translation>0,0,0</translation>
+															<rotation>0,0,0,0</rotation>
+															<scale>.75,1,.15</scale>
+															<children>
+															</children>
+														</child>
+													</children>
+												</child>
+											</children>
+										</child>
+										
+										<child>
+											<name>DashboardTransNode</name>
+											<translation>-8,.75,-4</translation>
+											<rotation>60,1,0,0</rotation>
+											<scale>1,1,1</scale>
+											<children>
+											
+												<child>
+													<name>DashboardNode</name>
+													<entity>
+														<name>Dashboard</name>
+														<mesh>Dashboard.mesh</mesh>
+														<material>Dashboard</material>
+													</entity>
+													<translation>0,0,0</translation>
+													<rotation>0,0,0,0</rotation>
+													<scale>2.5,1,.5</scale>
+													<children>
+													</children>
+												</child>
+											</children>
+										</child>
+										
+										<child>
+											<name>HolographicGridTransNode</name>
+											<translation>-8,.75,-4</translation>
+											<rotation>60,1,0,0</rotation>
+											<scale>1,1,1</scale>
+											<children>
+											
+												<child>
+													<name>HolographicGridNode</name>
+													<entity>
+														<name>HolographicGrid</name>
+														<mesh>HolographicGrid.mesh</mesh>
+														<material>HolographicGrid</material>
+													</entity>
+													<translation>0,0,0</translation>
+													<rotation>0,0,0,0</rotation>
+													<scale>1.75,.25,.25</scale>
+													<children>
+													</children>
+												</child>
+											</children>
+										</child>
+									</children>
+								</child>
+							</children>
+						</child>
+					</children>
+				</child>
+			</children>
+		</root>
+	</scene_graph>
+</scene>

@@ -1,0 +1,79 @@
+
+<gui>
+
+   <windows>
+   <window>
+
+      <name>Window1</name>
+      <caption>HoloTablet</caption>
+      <skin>WindowC</skin>
+      <position>200,400</position>
+      <size>400,200</size>
+      <align>Default</align>
+      <layer>Overlapped</layer>
+
+   <buttons>
+
+		<button>
+			<name>FalloutStation</name>
+			<caption>Fallout Station</caption>
+			<skin>Button</skin>
+			<position>25,15</position>
+			<size>140,50</size>
+			<align>Default</align>
+			<font>20</font>
+		</button>
+		<button>
+			<name>StyxStation</name>
+			<caption>Styx Station</caption>
+			<skin>Button</skin>
+			<position>225,15</position>
+			<size>140,50</size>
+			<align>Default</align>
+			<font>20</font>
+		</button>
+		<button>
+			<name>EpicStation</name>
+			<caption>VG Station</caption>
+			<skin>Button</skin>
+			<position>25,70</position>
+			<size>140,50</size>
+			<align>Default</align>
+			<font>20</font>
+		</button>
+		<button>
+			<name>TrollStation</name>
+			<caption>Trololol Station</caption>
+			<skin>Button</skin>
+			<position>225,70</position>
+			<size>140,50</size>
+			<align>Default</align>
+			<font>20</font>
+		</button>
+	</buttons>
+
+   <combo_boxes>
+
+		<combo_box>
+
+			 <name>Select_Object</name>
+			 <skin>ComboBox</skin>
+			 <position>50,125</position>
+			 <size>290,30</size>
+			 <align>Default</align>
+			 <font>25</font>
+			 <selected_index>0</selected_index>
+
+			 <selections>
+				<selection>Inside Camera</selection>
+				<selection>Outside Camera</selection>
+			 </selections>
+           
+		</combo_box>
+
+	</combo_boxes>
+
+	</window>
+	</windows>
+	   
+</gui>

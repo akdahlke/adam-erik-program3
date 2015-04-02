@@ -1,0 +1,233 @@
+
+<resources>
+
+   <resource>
+      <uid>1</uid>
+      <scope>0</scope>
+      <resource_type>path</resource_type>
+      <file_name>./assets/models/models_0</file_name>
+   </resource>
+   
+   <resource>
+      <uid>2</uid>
+      <scope>0</scope>
+      <resource_type>path</resource_type>
+      <file_name>./assets/materials/scripts/scripts_0</file_name>
+   </resource>
+   
+   <resource>
+      <uid>3</uid>
+      <scope>0</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>ChairArm.mesh</file_name>
+   </resource>
+   
+   <resource>
+      <uid>4</uid>
+      <scope>0</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>ChairBack.mesh</file_name>
+   </resource>
+   
+   <resource>
+      <uid>5</uid>
+      <scope>0</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>ChairCushion.mesh</file_name>
+   </resource>
+   
+   <resource>
+      <uid>6</uid>
+      <scope>0</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>Dashboard.mesh</file_name>
+   </resource>
+   
+   <resource>
+      <uid>7</uid>
+      <scope>0</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>HolographicGrid.mesh</file_name>
+   </resource>
+   
+   <resource>
+      <uid>8</uid>
+      <scope>0</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>ShipHull.mesh</file_name>
+   </resource>
+   
+   <resource>
+      <uid>9</uid>
+      <scope>0</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>ShipArm.mesh</file_name>
+   </resource>
+   
+   <resource>
+      <uid>10</uid>
+      <scope>0</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>ShipEngine.mesh</file_name>
+   </resource>
+   
+   <resource>
+      <uid>11</uid>
+      <scope>0</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>ShipWing.mesh</file_name>
+   </resource>
+   
+   <resource>
+      <uid>12</uid>
+      <scope>0</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>WindowCross.mesh</file_name>
+   </resource>
+   
+   <resource>
+      <uid>13</uid>
+      <scope>0</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>WindowGuardMiddle.mesh</file_name>
+   </resource>
+   
+   <resource>
+      <uid>14</uid>
+      <scope>0</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>WindowGuardSide.mesh</file_name>
+   </resource>
+   
+   <resource>
+      <uid>15</uid>
+      <scope>0</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>Element_Zero.mesh</file_name>
+   </resource>
+   
+   <resource>
+      <uid>16</uid>
+      <scope>0</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>Ring.mesh</file_name>
+   </resource>
+   
+   <resource>
+      <uid>17</uid>
+      <scope>0</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>Relay.mesh</file_name>
+   </resource>
+	
+	<resource>
+		<uid>18</uid>
+		<scope>0</scope>
+		<resource_type>mesh</resource_type>
+		<file_name>Space.mesh</file_name>
+	</resource>
+   
+	<resource>
+      <uid>19</uid>
+      <scope>0</scope>
+      <resource_type>audio</resource_type>
+      <file_name>./assets/audio/audio_0/ME_Mass_Relay_Jump.m4a</file_name>
+      <audio_type>sample</audio_type>
+   </resource>
+	
+	<resource>
+      <uid>20</uid>
+      <scope>0</scope>
+      <resource_type>audio</resource_type>
+      <file_name>./assets/audio/audio_0/01 - Anything Goes.mp3</file_name>
+      <audio_type>stream</audio_type>
+   </resource>
+	
+	<resource>
+      <uid>21</uid>
+      <scope>0</scope>
+      <resource_type>audio</resource_type>
+      <file_name>./assets/audio/audio_0/02 - Way Back Home.mp3</file_name>
+      <audio_type>stream</audio_type>
+   </resource>
+	
+	<resource>
+      <uid>22</uid>
+      <scope>0</scope>
+      <resource_type>audio</resource_type>
+      <file_name>./assets/audio/audio_0/04 - I Don't Want To Set The World On Fire (Single Version).mp3</file_name>
+      <audio_type>stream</audio_type>
+   </resource>
+	
+	<resource>
+      <uid>23</uid>
+      <scope>0</scope>
+      <resource_type>audio</resource_type>
+      <file_name>./assets/audio/audio_0/(Disc 2) 12 - Suicide Mission.mp3</file_name>
+      <audio_type>stream</audio_type>
+   </resource>
+	
+	<resource>
+      <uid>24</uid>
+      <scope>0</scope>
+      <resource_type>audio</resource_type>
+      <file_name>./assets/audio/audio_0/18 - One Final Effort.mp3</file_name>
+      <audio_type>stream</audio_type>
+   </resource>
+	
+	<resource>
+      <uid>25</uid>
+      <scope>0</scope>
+      <resource_type>audio</resource_type>
+      <file_name>./assets/audio/audio_0/26 - Untold Legends.mp3</file_name>
+      <audio_type>stream</audio_type>
+   </resource>
+	
+	<resource>
+      <uid>26</uid>
+      <scope>0</scope>
+      <resource_type>audio</resource_type>
+      <file_name>./assets/audio/audio_0/04 - Too Much Time On My Hands.mp3</file_name>
+      <audio_type>stream</audio_type>
+   </resource>
+	
+	<resource>
+      <uid>27</uid>
+      <scope>0</scope>
+      <resource_type>audio</resource_type>
+      <file_name>./assets/audio/audio_0/08 - Renegade.mp3</file_name>
+      <audio_type>stream</audio_type>
+   </resource>
+	
+	<resource>
+      <uid>28</uid>
+      <scope>0</scope>
+      <resource_type>audio</resource_type>
+      <file_name>./assets/audio/audio_0/09 - Come Sail Away.mp3</file_name>
+      <audio_type>stream</audio_type>
+   </resource>
+	
+	<resource>
+      <uid>29</uid>
+      <scope>0</scope>
+      <resource_type>audio</resource_type>
+      <file_name>./assets/audio/audio_0/15 - Mr_ Roboto.mp3</file_name>
+      <audio_type>stream</audio_type>
+   </resource>
+	
+	<resource>
+      <uid>30</uid>
+      <scope>0</scope>
+      <resource_type>audio</resource_type>
+      <file_name>./assets/audio/audio_0/01 - Trololo Man (Original Mix).mp3</file_name>
+      <audio_type>stream</audio_type>
+   </resource>
+
+	<resource>
+      <uid>31</uid>
+      <scope>0</scope>
+      <resource_type>path</resource_type>
+      <file_name>./assets/my_gui</file_name>
+	</resource>
+	
+</resources>

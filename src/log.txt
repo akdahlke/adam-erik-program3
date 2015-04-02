@@ -1,0 +1,140 @@
+****COMMENT****
+11:11:27
+Resource metadata loaded.
+****************
+****COMMENT****
+11:11:27
+Scripts parsed successfully.
+****************
+****COMMENT****
+11:11:27
+Meshes loaded successfully.
+****************
+****COMMENT****
+11:11:27
+Entity Space1 Entity successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity Space2 Entity successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity Space3 Entity successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity Space4 Entity successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity Space5 Entity successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity SpaceBot Entity successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity Relay Entity successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity Outer Ring Entity successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity Inner Ring Entity successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity Element Zero Entity successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity Head Entity successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity ShipHull successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity RightArm successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity RightEngine successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity RightWing successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity LeftArm successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity LeftEngine successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity LeftWing successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity MiddleGuard successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity RightGuard successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity LeftGuard successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity RightCross successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity LeftCross successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity ChairCushion successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity ChairBack successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity ChairRightArm successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity ChairLeftArm successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity Dashboard successfully placed in scene graph.
+****************
+****COMMENT****
+11:11:27
+Entity HolographicGrid successfully placed in scene graph.
+****************
+****COMMENT****
+11:12:25
+Destructor started.
+****************
+****COMMENT****
+11:12:25
+Resources unloaded successfully.
+****************
+****COMMENT****
+11:12:25
+Destructor completed.
+****************

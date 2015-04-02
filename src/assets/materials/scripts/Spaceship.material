@@ -1,0 +1,35 @@
+// Spaceship genrated by blender2ogre 0.5.9
+
+material Spaceship 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Spaceship
+        {
+            ambient 0.4975288510322571 0.18613314628601074 0.8000000715255737 1.0
+            diffuse 0.39802308675681175 0.1489065192476886 0.640000066757203 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
